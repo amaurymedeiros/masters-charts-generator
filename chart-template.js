@@ -22,11 +22,13 @@ $(function () {
       plotLines: [{
         color: '#00FF00',
         width: 2,
-        value: 65
+        value: 65,
+        dashStyle: 'ShortDot'
       }, {
         color: '#FF0000',
         width: 2,
-        value: 40
+        value: 40,
+        dashStyle: 'ShortDot'
       }]
     }],
     xAxis: {
